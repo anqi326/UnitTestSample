@@ -16,7 +16,7 @@ describe('Array', function() {
 describe('Number', function() {
   describe('#square()', function() {
     it('should return squared value when value is a number', function() {
-      expect(square(2)).to.be.equal(4);
+      expect(square(2)).to.be.equal(5);
     });
     it('should return error when value is not number', function() {
       expect(square('a')).to.be.NaN
