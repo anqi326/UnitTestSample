@@ -1,9 +1,12 @@
 language: node_js
 node_js:
   - "6"
+cache:
+  directories:
+    - "node_modules"
 install:
     - npm install
-test:
-    - npm run test
+script:
+    - npm test
 after_script:
     - npm run coveralls
