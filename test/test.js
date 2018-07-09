@@ -32,7 +32,7 @@ describe('Number', function() {
   });
   describe('#add()', function() {
     it('should return add value when value is a number', function() {
-      expect(add(2,3)).to.be.equal(5);
+      expect(add(2,3)).to.be.equal(4);
     });
   });
 });
