@@ -1,4 +1,4 @@
-import { square, double } from '../src/algorithm'
+import { square, double, add } from '../src/algorithm'
 import chai from 'chai'
 let expect = chai.expect;
 
