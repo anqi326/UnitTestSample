@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "test": "nyc ./node_modules/mocha/bin/_mocha --compilers js:./node_modules/babel-core/register -t 10000 && nyc report --reporter=lcov",
-    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+    "test": "nyc ./node_modules/mocha/bin/_mocha --compilers js:./node_modules/babel-core/register -t 10000 && nyc report --reporter=lcov"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
