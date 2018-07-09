@@ -30,4 +30,9 @@ describe('Number', function() {
       expect(double('a')).to.be.NaN
     });
   });
+  describe('#add()', function() {
+    it('should return add value when value is a number', function() {
+      expect(add(2,3)).to.be.equal(5);
+    });
+  });
 });
