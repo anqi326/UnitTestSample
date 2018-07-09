@@ -1,4 +1,4 @@
-import { square } from '../src/algorithm'
+import { square, double } from '../src/algorithm'
 import chai from 'chai'
 let expect = chai.expect;
 
@@ -20,6 +20,14 @@ describe('Number', function() {
     });
     it('should return error when value is not number', function() {
       expect(square('a')).to.be.NaN
+    });
+  });
+  describe('#double()', function() {
+    it('should return double value when value is a number', function() {
+      expect(double(2)).to.be.equal(4);
+    });
+    it('should return error when value is not number', function() {
+      expect(double('a')).to.be.NaN
     });
   });
 });
